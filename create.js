@@ -39,7 +39,7 @@ if (options['site'] === 'cso') {
     process.exit(1);
 }
 
-const slug = slugify(title, {lower: true});
+const slug = slugify(title, {lower: true}).replace(/---/g, "-");
 
 const date = moment.tz("Europe/Oslo");
 
