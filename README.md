@@ -2,7 +2,7 @@
 
 Utility for both https://github.com/chrissearle/www_cso/ and https://github.com/chrissearle/www_smu/
 
-Expects to be checked out to thj same directory as www_cso/www_smu
+Expects to be checked out to the same directory as www_cso/www_smu (parallel to it so that ../www_cso or ../www_smu work).
 
 SITE is either `cso` or `smu`
 
